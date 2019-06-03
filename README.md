@@ -1,3 +1,5 @@
+![](https://github.com/nmeisburger0/forum/blob/master/static/forumTitle.PNG)
+
 # forum
 Forum is web app that allows users to share their ideas and view the ideas shared by others. The app allows users to create an account, login and write posts for that explain their idea. Other users can then view the ideas that have been posted on the app and up vote the ones they like the best. The app also provides an admin level access that allows for the monitoring and removal of posts.
 
@@ -17,6 +19,8 @@ The following assumes that you have mongodb installed on your computer. You can 
 The app defaults to using `http://localhost:5000` to locally host the server. This can be changed by changing the value of the `SERVER_PORT` variable in `./server/server.js`.
 
 The app defaults to using `mongodb://localhost/database` as the database for the app. This can be changed by changing the value of the `DB_ROUTE` variable in `./server/server.js`.
+
+![](https://github.com/nmeisburger0/forum/blob/master/static/loginWindow.PNG)
 
 ## App Features
 
