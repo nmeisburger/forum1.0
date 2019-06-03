@@ -1,16 +1,16 @@
 const mongoose = require('mongoose')
 const express = require('express')
 var cors = require('cors')
-const bodyParser = require('body-parser');
-const logger = require('morgan');
+const bodyParser = require('body-parser')
+const logger = require('morgan')
 
 const SERVER_PORT = 5000;
+const DB_ROUTE = "mongodb://localhost/database"
 
 const app = express();
 app.use(cors())
 
-const dbRoute = "mongodb://localhost/database"
-mongoose.connect(dbRoute, { useNewUrlParser: true })
+mongoose.connect(DB_ROUTE, { useNewUrlParser: true })
 
 var db = mongoose.connection;
 

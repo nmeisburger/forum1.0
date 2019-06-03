@@ -6,7 +6,6 @@ const axios = require('axios')
 
 const SERVER_BASE_ADDRESS = 'http://localhost:5000'
 
-
 class App extends React.Component {
     constructor(props) {
         super(props)
