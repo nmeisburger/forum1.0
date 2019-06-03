@@ -14,6 +14,6 @@ The following assumes that you have mongodb installed on your computer. You can 
 
 3. Run `$ npm run dev` to run the app using nodemon to run the server. This means that the local version of the server will automatically update as you make changes to the backend, without having to stop and rerun the server.
 
-The app defaults to using `http://localhost:5000` for the server. This can be changed by changing the value of the `SERVER_PORT` variable in `./server/server.js`.
+The app defaults to using `http://localhost:5000` to locally host the server. This can be changed by changing the value of the `SERVER_PORT` variable in `./server/server.js`.
 
-The app defaults to using `mongodb://localhost/database` for the database for the app. This can be changed by changing the value of the `DB_ROUTE` variable in `./server/server.js`.
+The app defaults to using `mongodb://localhost/database` as the database for the app. This can be changed by changing the value of the `DB_ROUTE` variable in `./server/server.js`.
