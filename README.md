@@ -4,5 +4,8 @@ Forum is web app that allows users to share their ideas and view the ideas share
 ## Development 
 
 The following assumes that you have mongodb installed on your computer. You can check this by running 
+`$ mongod --version` and `$ mongo --version`
 
-`$ mongod --version` and `$mongo --version`
+### Running the app locally in development mode
+
+1. Run `$ npm install to install the dependencies for the project 
