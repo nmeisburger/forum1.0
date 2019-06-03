@@ -1,0 +1,19 @@
+{
+    "firstname": "Person1",
+    "lastname": "Person1",
+    "email": "person1@rice.edu",
+    "password": "person1",
+    "admin": true
+}
+{
+    "firstname": "Person2",
+    "lastname": "Person2",
+    "email": "person2@rice.edu",
+    "password": "person2"
+}
+{
+    "firstname": "Person3",
+    "lastname": "Person3",
+    "email": "person3@rice.edu",
+    "password": "person3"
+}

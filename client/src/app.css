@@ -1,0 +1,178 @@
+.header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.hackrice-title {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-family: 'Work Sans', sans-serif;
+    text-align: left;
+    margin: 0;
+    padding: 2% 3%;
+}
+
+.nine {
+    font-size: 3.3rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.login {
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #97C9C9;
+    padding: 01% 3% 3% 3%;
+    text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+    .hackrice-title {
+        font-size: 1.5rem;
+    }
+
+    .nine {
+        font-size: 2rem;
+    }
+
+    .login {
+        margin-top: 20%;
+    }
+}
+
+.forum-title {
+    margin: 4% auto;
+    font-size: 5rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #349898;
+}
+
+.input-field {
+    font-family: 'Overpass Mono', monospace;
+    margin-bottom: 5%;
+    width: 96%;
+    padding: 2%;
+    font-size: 1.4rem;
+}
+
+.btn1, .btn2 {
+    background-color: #349898;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    padding: 3% 0;
+    margin-top: 2%;
+    font-size: 1.4rem;
+    transition: 0.3s ease-in-out;
+    border: 2px solid #349898;
+}
+
+.btn1:hover {
+    background-color: #ffffff;
+    color: #349898;
+}
+
+.btn2 {
+    background-color: #60B2B2;
+    border-color: #60B2B2;
+
+}
+
+.btn2:hover {
+    background-color: #ffffff;
+    color: #349898;
+    border-color: #349898;
+}
+
+.error-message {
+    color: #349898;
+}
+
+.logout-btn {
+    width: 100px;
+    margin-right: 4%;
+    margin-left: auto;
+    margin-top: -6%;
+}
+
+.post {
+    background-color: #97C9C9;
+    color: #216363;
+    margin: 2% auto;
+    padding: 2%;
+    text-align: left;
+}
+
+.post-author {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.post-message {
+    font-size: 1.1rem;
+}
+
+.line {
+    height: 2px;
+    background-color: #216363;
+}
+
+.vote-count {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+    margin-left: auto;
+    font-size: 1.6rem;
+}
+
+.post-action-btn {
+    width: 47px;
+    height: 47px;
+    border-radius: 40px;
+    background-color: #97C9C9;
+    margin-left: 20px;
+    text-align: center;
+    transform: translateY(-8px);
+    transition: 0.2s ease-in-out;
+}
+
+.post-action-btn:hover {
+    background-color: #60B2B2;
+}
+
+.create-post {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.create-post-btn {
+    width: 160px;
+    margin: 2% auto;
+}
+
+.switch-admin-view-btn {
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile {
+    background-color: #97C9C9;
+    color: #216363;
+    margin: 2% auto;
+    padding: 2%;
+    text-align: left;
+}
+
+.profile-field {
+    font-size: 1.2rem;
+}
+
+.promote-admin-btn {
+    width: 260px;
+    margin: 0 auto;
+}

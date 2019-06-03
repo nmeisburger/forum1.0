@@ -1,0 +1,18 @@
+{
+    "message": "This is sample post 1.",
+    "user": "Person1",
+    "votes": 0,
+    "voters": []
+}
+{
+    "message": "This is sample post 2.",
+    "user": "Person2",
+    "votes": 0,
+    "voters": []
+}
+{
+    "message": "This is sample post 3.",
+    "user": "Person3",
+    "votes": 0,
+    "voters": []
+}
