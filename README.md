@@ -17,3 +17,6 @@ The following assumes that you have mongodb installed on your computer. You can 
 The app defaults to using `http://localhost:5000` to locally host the server. This can be changed by changing the value of the `SERVER_PORT` variable in `./server/server.js`.
 
 The app defaults to using `mongodb://localhost/database` as the database for the app. This can be changed by changing the value of the `DB_ROUTE` variable in `./server/server.js`.
+
+## Contributors
+- Nicholas Meisburger ([nmeisburger0](https://github.com/nmeisburger0)
