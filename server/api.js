@@ -326,20 +326,20 @@ router.post('/promoteadmin', (req, res) => {
 //         })
 // })
 
-// router.get('/unmakeadmin', (req, res) => {
-//     Profile.findByIdAndUpdate(req.query.id, { admin: false }, { new: true })
-//         .then(response => {
-//             return res.json({
-//                 confirmation: 'success',
-//                 data: response
-//             })
-//         })
-//         .catch(err => {
-//             return res.json({
-//                 confirmation: 'failure',
-//                 error: err
-//             })
-//         })
-// })
+router.get('/unmakeadmin', (req, res) => {
+    Profile.findByIdAndUpdate(req.query.id, { admin: false }, { new: true })
+        .then(response => {
+            return res.json({
+                confirmation: 'success',
+                data: response
+            })
+        })
+        .catch(err => {
+            return res.json({
+                confirmation: 'failure',
+                error: err
+            })
+        })
+})
 
 module.exports = router
